@@ -7,6 +7,16 @@ $stdout.sync = true
 build_path = ARGV[0]
 cache_path = ARGV[1]
 
+puts "Exploding"
+
+a = "a"
+i = 1
+while true
+  a = a*1000
+end
+
+puts "done exploding"
+
 install_ruby
 
 private
