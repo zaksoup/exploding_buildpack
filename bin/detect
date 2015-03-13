@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+gemfile_path = File.join ARGV[0], "Gemfile"
+
+if File.exist?(gemfile_path)
+  puts "Ruby"
+  exit 0
+else
+  exit 1
+end
